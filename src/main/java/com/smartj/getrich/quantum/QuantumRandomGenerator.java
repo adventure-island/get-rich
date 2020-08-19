@@ -110,6 +110,13 @@ public class QuantumRandomGenerator
 			List<Integer> powerballs = requestRandomNumberInRange(rounds,
 					gameType.min, 20);
 			generateFinalSelection(gameNumbers, powerballs);
+		} else if(gameType == GameType.CN_BINGO_BALL) {
+			// CN_BINGO_BALL requires 6 main numbers(red balls) and one number(
+			// blue ball)
+			// This returns a list of rows containing the selected game numbers
+			List<Integer> powerballs = requestRandomNumberInRange(rounds,
+					gameType.min, 16);
+			generateFinalSelection(gameNumbers, powerballs);
 		}
 	}
 	

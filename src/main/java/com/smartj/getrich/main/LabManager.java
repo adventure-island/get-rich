@@ -23,7 +23,7 @@ public class LabManager {
 	public void runLottoGame() {
 		int rounds = 50;
 		// Specify the game type here
-		randomGenerator.playGame(GameType.XLOTTO, rounds);
+		randomGenerator.playGame(GameType.CN_BINGO_BALL, rounds);
 	}
 
 }

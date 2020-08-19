@@ -48,8 +48,8 @@ public enum GameType {
 		Collections.unmodifiableSet(new HashSet<Integer>(Arrays.asList(1))),
 		// the algorithm to use to generate the numbers
 		DrawingAlgorithm.ShrinkingIndexPool,
-		true, //avoidLeastProfitableNums
-		true, //avoidBlackListedNums
+		false, //avoidLeastProfitableNums
+		false, //avoidBlackListedNums
 		true  //useRanking
 	), 
 	POWERBALL(
@@ -69,8 +69,28 @@ public enum GameType {
 		DrawingAlgorithm.OneTimeIndexSelection,
 		false, //avoidLeastProfitableNums
 		false, //avoidBlackListedNums
-		true  //useRanking
-	);
+		false  //useRanking
+	),
+	//Chinese Bingo ball game
+	CN_BINGO_BALL(
+			// number of balls to draw
+			6, 
+			// the minimum value of a ball
+			1,
+			// the maximum value of a ball
+			33,
+			// most profitable number
+			null,
+			// least profitable numbers
+			null,
+			// black listed numbers
+			null,
+			// the algorithm to use to generate the numbers
+			DrawingAlgorithm.OneTimeIndexSelection,
+			false, //avoidLeastProfitableNums
+			false, //avoidBlackListedNums
+			false  //useRanking
+		);
 	 
 	public final int numBalls;
 	public final int min;
