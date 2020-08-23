@@ -1,8 +1,8 @@
 
-# Get-Rich V2.0.0
+# get-rich V2.0.0
 
-Get-Rich V2.0.0 was created to boost the depressed economy and help myself get richer:laughing:
-It is a highly sophisticated lottery number generator based on real and live quantum numbers retrieved from [ANU Quantum Random Numbers Server](http://qrng.anu.edu.au/). 
+get-rich V2.0.0 was created to boost the depressed economy and help myself get richer:laughing:
+It is a highly sophisticated lottery number generator based on real and live quantum numbers retrieved from [ANU Quantum Random Number Server](http://qrng.anu.edu.au/). 
 
 
 ## Features and Highlights
